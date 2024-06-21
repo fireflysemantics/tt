@@ -48,6 +48,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "@custom-elements-manifest/analyzer": "^0.6.3",
     "@open-wc/testing": "^3.1.5",
+    "@release-it/conventional-changelog": "^8.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-replace": "^5.0.2",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
@@ -60,11 +61,35 @@
     "eslint": "^8.15.0",
     "lit-analyzer": "^1.2.1",
     "prettier": "^2.6.2",
+    "release-it": "^17.4.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.73.0",
     "rollup-plugin-summary": "^1.4.3",
     "rollup-plugin-terser": "^7.0.2",
     "typescript": "~5.3.3"
   },
-  "customElements": "custom-elements.json"
+  "customElements": "custom-elements.json",
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release ${version}"
+    },
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": false
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "infile": "CHANGELOG.md",
+        "preset": {
+          "name": "conventionalcommits",
+          "type": [
+            { "type": "feat", "section": "Features"},
+            { "type": "fix", "section": "Bug Fixes"}
+          ]
+        }
+      }
+    } 
+  }
 }
