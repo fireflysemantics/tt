@@ -1,5 +1,12 @@
 
 
+## [2.4.0](https://github.com/fireflysemantics/tt/compare/2.3.0...2.4.0) (2024-06-21)
+
+
+### Features
+
+* test ([fc80739](https://github.com/fireflysemantics/tt/commit/fc8073928bb6b80e72d92de53aa42bd4756639b2))
+
 ## [2.3.0](https://github.com/fireflysemantics/tt/compare/2.2.0...2.3.0) (2024-06-21)
 
 
