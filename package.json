@@ -1,7 +1,7 @@
 {
   "name": "@lit/lit-starter-ts",
   "private": true,
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A simple web component",
   "main": "my-element.js",
   "module": "my-element.js",
@@ -85,11 +85,17 @@
         "preset": {
           "name": "conventionalcommits",
           "type": [
-            { "type": "feat", "section": "Features"},
-            { "type": "fix", "section": "Bug Fixes"}
+            {
+              "type": "feat",
+              "section": "Features"
+            },
+            {
+              "type": "fix",
+              "section": "Bug Fixes"
+            }
           ]
         }
       }
-    } 
+    }
   }
 }
