@@ -1,4 +1,6 @@
+# Custom Header Addition
 
+Something that I added
 
 ## 2.0.2 (2024-06-21)
 
