@@ -1,5 +1,10 @@
 
 
+* fix: remove release-it config from package.json (8a356df)
+* chore: release 2.3.0 (e617fdb)
+* fix: set commit to true in release it configuration (6fc5d26)
+* feat: add typescript release-it configuration (186fed9)
+
 ## [2.3.0](https://github.com/fireflysemantics/tt/compare/2.4.0...2.3.0) (2024-06-22)
 
 
