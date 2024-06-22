@@ -1,5 +1,19 @@
 
 
+## [2.5.0](https://github.com/fireflysemantics/tt/compare/2.4.0...2.5.0) (2024-06-22)
+
+
+### Features
+
+* add typescript release-it configuration ([186fed9](https://github.com/fireflysemantics/tt/commit/186fed9381c1aef086d024f5a53219ddea023cd3))
+
+
+### Bug Fixes
+
+* remove release-it config from package.json ([8a356df](https://github.com/fireflysemantics/tt/commit/8a356dfafe6e4bbd8289f5f788ae894f20e18033))
+* set commit to true in release it configuration ([6fc5d26](https://github.com/fireflysemantics/tt/commit/6fc5d264f32d0a7e0a3a02cdb0ee96aa181b6942))
+* test fix ([4480114](https://github.com/fireflysemantics/tt/commit/4480114c79d0c707f77f0665ab270dd8c65e84a3))
+
 * fix: remove release-it config from package.json (8a356df)
 * chore: release 2.3.0 (e617fdb)
 * fix: set commit to true in release it configuration (6fc5d26)
