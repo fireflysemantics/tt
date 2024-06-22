@@ -68,34 +68,5 @@
     "rollup-plugin-terser": "^7.0.2",
     "typescript": "~5.3.3"
   },
-  "customElements": "custom-elements.json",
-  "release-it-config-moved-to-ts": {
-    "git": {
-      "commitMessage": "chore: release ${version}"
-    },
-    "github": {
-      "release": true
-    },
-    "npm": {
-      "publish": false
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "infile": "CHANGELOG.md",
-        "preset": {
-          "name": "conventionalcommits",
-          "type": [
-            {
-              "type": "feat",
-              "section": "Features"
-            },
-            {
-              "type": "fix",
-              "section": "Bug Fixes"
-            }
-          ]
-        }
-      }
-    }
-  }
+  "customElements": "custom-elements.json"
 }
